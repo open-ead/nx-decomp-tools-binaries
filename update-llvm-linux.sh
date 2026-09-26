@@ -34,5 +34,5 @@ mv $archived_llvm_objdump_path linux
 
 
 rm -rf "LLVM-$version-$target"
-echo $url >> README.md
-echo ">>> url printed to README.md; please update it"
+echo "    * linux: $version (objdump only): $url"
+echo ">>> url printed; please update it in the README"
